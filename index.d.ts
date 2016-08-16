@@ -34,6 +34,7 @@ import { AppBarTheme } from "react-toolbox/lib/app_bar";
 import { AutocompleteTheme } from "react-toolbox/lib/autocomplete";
 import { AvatarTheme } from "react-toolbox/lib/avatar";
 import { ButtonTheme, IconButtonTheme } from "react-toolbox/lib/button";
+import { BottomSheet } from "react-toolbox/lib/bottomsheet";
 import { CardTheme, CardTitleTheme, CardMediaTheme, CardTextTheme, CardActionsTheme } from "react-toolbox/lib/card";
 import { CheckboxTheme } from "react-toolbox/lib/checkbox";
 import { ChipTheme } from "react-toolbox/lib/chip";
@@ -62,6 +63,7 @@ export {
   Autocomplete,
   Avatar,
   Button, IconButton,
+  BottomSheet,
   Card, CardTitle, CardMedia, CardText, CardActions,
   Checkbox,
   Chip,

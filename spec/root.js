@@ -6,7 +6,9 @@ import Autocomplete from './components/autocomplete';
 import Avatar from './components/avatar';
 import FontIcon from './components/font_icon';
 import Button from './components/button';
+import Button1 from './components/button1';
 import ButtonToolbox from '../components/button';
+import BottomSheet from './components/bottomsheet';
 import Card from './components/card';
 import Checkbox from './components/checkbox';
 import Chip from './components/chip';
@@ -25,14 +27,17 @@ import Slider from './components/slider';
 import Snackbar from './components/snackbar';
 import Switch from './components/switch';
 import Table from './components/table';
+import Table1 from './components/table1';
 import Tabs from './components/tabs';
 import Tooltip from './components/tooltip';
 import style from './style';
-
+import FlexList from './components/flexlist';
 const Root = () => (
   <div className={style.app}>
     <AppBar className={style.appbar} fixed flat>
-      <h1>React Toolbox <small>Spec {VERSION}</small></h1>
+      <h1>React Toolbox
+        <small>Spec {VERSION}</small>
+      </h1>
       <ButtonToolbox
         accent
         className={style.github}
@@ -45,6 +50,7 @@ const Root = () => (
     <Avatar />
     <FontIcon />
     <Button />
+    <Button1 />
     <Card />
     <Checkbox />
     <Chip />
@@ -55,14 +61,17 @@ const Root = () => (
     <Input />
     <Layout />
     <List />
+    <FlexList />
     <Menu />
     <Pickers />
     <Progress />
     <Radio />
     <Slider />
     <Snackbar />
+    <BottomSheet />
     <Switch />
     <Table />
+    <Table1 />
     <Tabs />
     <Tooltip />
   </div>
