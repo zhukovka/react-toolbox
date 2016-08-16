@@ -1,6 +1,7 @@
 export const APP_BAR = 'RTAppBar';
 export const AUTOCOMPLETE = 'RTAutocomplete';
 export const AVATAR = 'RTAvatar';
+export const BOTTOMSHEET = 'RTBottomSheet';
 export const BUTTON = 'RTButton';
 export const CARD = 'RTCard';
 export const CHIP = 'RTChip';
@@ -8,6 +9,7 @@ export const CHECKBOX = 'RTCheckbox';
 export const DATE_PICKER = 'RTDatePicker';
 export const DIALOG = 'RTDialog';
 export const DROPDOWN = 'RTDropdown';
+export const FLEXLIST = 'RTFlexList';
 export const INPUT = 'RTInput';
 export const LAYOUT = 'RTLayout';
 export const LINK = 'RTLink';
